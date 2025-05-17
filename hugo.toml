@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blog.playstone.top/'
 languageCode = 'zh-CN'
 title = '空空书房'
 theme = 'ananke'
