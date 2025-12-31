@@ -1,4 +1,19 @@
 baseURL = 'https://blog.playstone.top/'
 languageCode = 'zh-CN'
-title = '空空书房'
-theme = 'ananke'
+title = '空空'
+theme = 'PaperMod'
+
+[params]
+  math = true
+  ShowCodeCopyButtons = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    style = "github-dark"
