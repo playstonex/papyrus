@@ -1,0 +1,36 @@
+<!-- 
+  如果想使用 Web 字体，将此文件重命名为 extend_head.html 或合并到现有的 extend_head.html 中
+  注意：Web 字体会增加页面加载时间
+-->
+
+<!-- 方案2: 使用 Google Fonts（需要科学上网） -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+body {
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Serif SC", serif;
+}
+
+code, pre {
+  font-family: "JetBrains Mono", monospace;
+}
+</style>
+
+<!-- 方案3: 使用国内 CDN（推荐国内用户） -->
+<!-- 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css">
+<style>
+body {
+  font-family: "LXGW WenKai", sans-serif;
+}
+</style>
+-->
+
+<!-- 方案4: 使用霞鹜文楷（开源中文字体，适合阅读） -->
+

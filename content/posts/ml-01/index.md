@@ -141,7 +141,7 @@ $$
 
 其中：
 
-- \(\eta\) 称为 **学习率（learning rate）**
+- $\eta$ 称为 **学习率（learning rate）**
 - 决定每一步走多远
 
 ---

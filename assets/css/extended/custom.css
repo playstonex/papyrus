@@ -1,0 +1,58 @@
+/* 自定义字体配置 - Maple Font */
+
+/* 正文使用 Maple Mono SC NF（支持中文的等宽字体） */
+body {
+  font-family: 
+    "MapleMono SC NF",
+    "Maple Mono SC NF",
+    "PingFang SC",
+    "Microsoft YaHei",
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+}
+
+/* 代码字体使用 Maple Mono NF */
+code, pre, kbd, samp {
+  font-family: 
+    "MapleMono NF",
+    "Maple Mono NF",
+    "JetBrains Mono",
+    "Fira Code",
+    "Consolas",
+    monospace;
+}
+
+/* 标题字体 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 
+    "MapleMono SC NF",
+    "Maple Mono SC NF",
+    "PingFang SC",
+    "Microsoft YaHei",
+    sans-serif;
+  font-weight: 600;
+}
+
+/* 优化中英文混排 */
+.post-content {
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+/* 优化代码块 */
+.highlight pre {
+  line-height: 1.6;
+}
+
+/* 优化数学公式显示 */
+.katex {
+  font-size: 1.1em;
+}
+
+/* Maple Font 特殊优化 */
+body {
+  font-variant-ligatures: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
