@@ -33,4 +33,11 @@ body {
 -->
 
 <!-- 方案4: 使用霞鹜文楷（开源中文字体，适合阅读） -->
-
+<!--
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css">
+<style>
+body {
+  font-family: "LXGW WenKai Screen", sans-serif;
+}
+</style>
+-->
